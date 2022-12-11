@@ -38,3 +38,19 @@ class DriverClass:
 
     result = adventOfCode.day2_task2(number)  # *********** correct ****************
     print("advent of code 2022 day 2 task 2: ", result)
+
+    # ********************************** DAY 3 *******************************************
+    with open("Day3.txt", "r") as f: # 14610
+        numbers = f.read()
+
+    number = numbers.split("\n")
+
+
+    number1 = ["vJrwpWtwJgWrhcsFMMfFFhFp", "jqHRNqRjqzjGDLGLrsFMfFZSrLrFZsSL", "PmmdzqPrVvPwwTWBwg", "wMqvLMZHhHMvwLHjbvcjnnSBnvTQFn", "ttgJtRGJQctTZtZT", "CrZsJsPPZsGzwwsLwLmpwMDw"]
+    result = adventOfCode.day3_task1(number)  # *********** correct ****************
+    print("advent of code 2022 day 3 task 1: ", result)
+
+    result = adventOfCode.day3_task2(number)  # *********** correct ****************
+    print("advent of code 2022 day 3 task 2: ", result)
+
+
